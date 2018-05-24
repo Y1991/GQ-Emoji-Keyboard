@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AF027420A52F3C0023BD28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF027320A52F3C0023BD28 /* AppDelegate.m */; };
+		19AF027720A52F3C0023BD28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF027620A52F3C0023BD28 /* ViewController.m */; };
+		19AF027A20A52F3C0023BD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AF027820A52F3C0023BD28 /* Main.storyboard */; };
+		19AF027C20A52F3C0023BD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19AF027B20A52F3C0023BD28 /* Assets.xcassets */; };
+		19AF027F20A52F3C0023BD28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19AF027D20A52F3C0023BD28 /* LaunchScreen.storyboard */; };
+		19AF028220A52F3C0023BD28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF028120A52F3C0023BD28 /* main.m */; };
+		19AF028C20A52F3C0023BD28 /* GQEmojiKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF028B20A52F3C0023BD28 /* GQEmojiKeyboardTests.m */; };
+		19AF029720A52F3C0023BD28 /* GQEmojiKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF029620A52F3C0023BD28 /* GQEmojiKeyboardUITests.m */; };
+		19AF02A720A538590023BD28 /* GQEmojiKBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02A620A538590023BD28 /* GQEmojiKBManager.m */; };
+		19AF02AB20A539280023BD28 /* GQEKBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02AA20A539280023BD28 /* GQEKBModel.m */; };
+		19AF02B220A53ED00023BD28 /* GQInputBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02B120A53ED00023BD28 /* GQInputBar.m */; };
+		19AF02B720A549770023BD28 /* GQEmojiKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02B620A549770023BD28 /* GQEmojiKeyBoard.m */; };
+		19AF02BD20A565B80023BD28 /* GQKeyboardTypeEmoji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02B920A565B80023BD28 /* GQKeyboardTypeEmoji@3x.png */; };
+		19AF02BE20A565B80023BD28 /* GQKeyboardTypeText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02BA20A565B80023BD28 /* GQKeyboardTypeText@2x.png */; };
+		19AF02BF20A565B80023BD28 /* GQKeyboardTypeEmoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02BB20A565B80023BD28 /* GQKeyboardTypeEmoji@2x.png */; };
+		19AF02C020A565B80023BD28 /* GQKeyboardTypeText@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02BC20A565B80023BD28 /* GQKeyboardTypeText@3x.png */; };
+		19AF02C520A594270023BD28 /* GQEmojiToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02C420A594270023BD28 /* GQEmojiToolBar.m */; };
+		19AF02CC20A596D70023BD28 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02C720A596D70023BD28 /* emoji.json */; };
+		19AF02CD20A596D70023BD28 /* keyboard_btn_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02C820A596D70023BD28 /* keyboard_btn_delete@2x.png */; };
+		19AF02CE20A596D70023BD28 /* keyboard_btn_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02C920A596D70023BD28 /* keyboard_btn_delete@3x.png */; };
+		19AF02CF20A596D70023BD28 /* keyboard_preview_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02CA20A596D70023BD28 /* keyboard_preview_bg@2x.png */; };
+		19AF02D020A596D70023BD28 /* keyboard_preview_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19AF02CB20A596D70023BD28 /* keyboard_preview_bg@3x.png */; };
+		19AF02D420A59E250023BD28 /* GQEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02D320A59E250023BD28 /* GQEmoji.m */; };
+		19AF02D720A59E660023BD28 /* GQEmojiTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02D620A59E660023BD28 /* GQEmojiTypeModel.m */; };
+		19AF02DB20A5A46A0023BD28 /* GQEmojiResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AF02DA20A5A46A0023BD28 /* GQEmojiResource.m */; };
+		19D5C7E220A5E01C00892012 /* GQEmojiScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D5C7E120A5E01C00892012 /* GQEmojiScrollView.m */; };
+		19D5C7E620A5E64400892012 /* GQEmojiImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D5C7E520A5E64400892012 /* GQEmojiImageView.m */; };
+		19D5C7EA20A5E78400892012 /* GQEmojiImagePreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D5C7E920A5E78400892012 /* GQEmojiImagePreView.m */; };
+		19D5C7ED20A6EA7E00892012 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D5C7EB20A6EA7D00892012 /* RootTableViewController.m */; };
+		19D5C7F020A6EAF000892012 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D5C7EF20A6EAF000892012 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19AF028820A52F3C0023BD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19AF026720A52F3C0023BD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19AF026E20A52F3C0023BD28;
+			remoteInfo = GQEmojiKeyboard;
+		};
+		19AF029320A52F3C0023BD28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19AF026720A52F3C0023BD28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19AF026E20A52F3C0023BD28;
+			remoteInfo = GQEmojiKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AF026F20A52F3C0023BD28 /* GQEmojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQEmojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AF027220A52F3C0023BD28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19AF027320A52F3C0023BD28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19AF027520A52F3C0023BD28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19AF027620A52F3C0023BD28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19AF027920A52F3C0023BD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19AF027B20A52F3C0023BD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19AF027E20A52F3C0023BD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19AF028020A52F3C0023BD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AF028120A52F3C0023BD28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19AF028720A52F3C0023BD28 /* GQEmojiKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQEmojiKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AF028B20A52F3C0023BD28 /* GQEmojiKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiKeyboardTests.m; sourceTree = "<group>"; };
+		19AF028D20A52F3C0023BD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AF029220A52F3C0023BD28 /* GQEmojiKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQEmojiKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19AF029620A52F3C0023BD28 /* GQEmojiKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiKeyboardUITests.m; sourceTree = "<group>"; };
+		19AF029820A52F3C0023BD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AF02A520A538590023BD28 /* GQEmojiKBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiKBManager.h; sourceTree = "<group>"; };
+		19AF02A620A538590023BD28 /* GQEmojiKBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiKBManager.m; sourceTree = "<group>"; };
+		19AF02A920A539280023BD28 /* GQEKBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEKBModel.h; sourceTree = "<group>"; };
+		19AF02AA20A539280023BD28 /* GQEKBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEKBModel.m; sourceTree = "<group>"; };
+		19AF02AC20A5397F0023BD28 /* GQEKBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEKBHeader.h; sourceTree = "<group>"; };
+		19AF02AD20A539EE0023BD28 /* GQEKBEnumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEKBEnumeration.h; sourceTree = "<group>"; };
+		19AF02AE20A53A370023BD28 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		19AF02B020A53ED00023BD28 /* GQInputBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQInputBar.h; sourceTree = "<group>"; };
+		19AF02B120A53ED00023BD28 /* GQInputBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQInputBar.m; sourceTree = "<group>"; };
+		19AF02B520A549770023BD28 /* GQEmojiKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiKeyBoard.h; sourceTree = "<group>"; };
+		19AF02B620A549770023BD28 /* GQEmojiKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiKeyBoard.m; sourceTree = "<group>"; };
+		19AF02B920A565B80023BD28 /* GQKeyboardTypeEmoji@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GQKeyboardTypeEmoji@3x.png"; sourceTree = "<group>"; };
+		19AF02BA20A565B80023BD28 /* GQKeyboardTypeText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GQKeyboardTypeText@2x.png"; sourceTree = "<group>"; };
+		19AF02BB20A565B80023BD28 /* GQKeyboardTypeEmoji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GQKeyboardTypeEmoji@2x.png"; sourceTree = "<group>"; };
+		19AF02BC20A565B80023BD28 /* GQKeyboardTypeText@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GQKeyboardTypeText@3x.png"; sourceTree = "<group>"; };
+		19AF02C320A594270023BD28 /* GQEmojiToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiToolBar.h; sourceTree = "<group>"; };
+		19AF02C420A594270023BD28 /* GQEmojiToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiToolBar.m; sourceTree = "<group>"; };
+		19AF02C720A596D70023BD28 /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		19AF02C820A596D70023BD28 /* keyboard_btn_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_btn_delete@2x.png"; sourceTree = "<group>"; };
+		19AF02C920A596D70023BD28 /* keyboard_btn_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_btn_delete@3x.png"; sourceTree = "<group>"; };
+		19AF02CA20A596D70023BD28 /* keyboard_preview_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_preview_bg@2x.png"; sourceTree = "<group>"; };
+		19AF02CB20A596D70023BD28 /* keyboard_preview_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyboard_preview_bg@3x.png"; sourceTree = "<group>"; };
+		19AF02D220A59E250023BD28 /* GQEmoji.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmoji.h; sourceTree = "<group>"; };
+		19AF02D320A59E250023BD28 /* GQEmoji.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmoji.m; sourceTree = "<group>"; };
+		19AF02D520A59E660023BD28 /* GQEmojiTypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiTypeModel.h; sourceTree = "<group>"; };
+		19AF02D620A59E660023BD28 /* GQEmojiTypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiTypeModel.m; sourceTree = "<group>"; };
+		19AF02D920A5A46A0023BD28 /* GQEmojiResource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiResource.h; sourceTree = "<group>"; };
+		19AF02DA20A5A46A0023BD28 /* GQEmojiResource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiResource.m; sourceTree = "<group>"; };
+		19D5C7E020A5E01C00892012 /* GQEmojiScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiScrollView.h; sourceTree = "<group>"; };
+		19D5C7E120A5E01C00892012 /* GQEmojiScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiScrollView.m; sourceTree = "<group>"; };
+		19D5C7E420A5E64400892012 /* GQEmojiImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiImageView.h; sourceTree = "<group>"; };
+		19D5C7E520A5E64400892012 /* GQEmojiImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiImageView.m; sourceTree = "<group>"; };
+		19D5C7E820A5E78400892012 /* GQEmojiImagePreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GQEmojiImagePreView.h; sourceTree = "<group>"; };
+		19D5C7E920A5E78400892012 /* GQEmojiImagePreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQEmojiImagePreView.m; sourceTree = "<group>"; };
+		19D5C7EB20A6EA7D00892012 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		19D5C7EC20A6EA7D00892012 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		19D5C7EE20A6EAF000892012 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		19D5C7EF20A6EAF000892012 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19AF026C20A52F3C0023BD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AF028420A52F3C0023BD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AF028F20A52F3C0023BD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19AF026620A52F3C0023BD28 = {
+			isa = PBXGroup;
+			children = (
+				19AF027120A52F3C0023BD28 /* GQEmojiKeyboard */,
+				19AF028A20A52F3C0023BD28 /* GQEmojiKeyboardTests */,
+				19AF029520A52F3C0023BD28 /* GQEmojiKeyboardUITests */,
+				19AF027020A52F3C0023BD28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19AF027020A52F3C0023BD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19AF026F20A52F3C0023BD28 /* GQEmojiKeyboard.app */,
+				19AF028720A52F3C0023BD28 /* GQEmojiKeyboardTests.xctest */,
+				19AF029220A52F3C0023BD28 /* GQEmojiKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19AF027120A52F3C0023BD28 /* GQEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				19AF02A420A52F420023BD28 /* 功能 */,
+				19AF027220A52F3C0023BD28 /* AppDelegate.h */,
+				19AF027320A52F3C0023BD28 /* AppDelegate.m */,
+				19D5C7F220A6F58B00892012 /* 表视图 */,
+				19D5C7F120A6F56D00892012 /* 普通简单（也可以添加一个滚动底层） */,
+				19D5C7EC20A6EA7D00892012 /* RootTableViewController.h */,
+				19D5C7EB20A6EA7D00892012 /* RootTableViewController.m */,
+				19AF027820A52F3C0023BD28 /* Main.storyboard */,
+				19AF027B20A52F3C0023BD28 /* Assets.xcassets */,
+				19AF027D20A52F3C0023BD28 /* LaunchScreen.storyboard */,
+				19AF028020A52F3C0023BD28 /* Info.plist */,
+				19AF028120A52F3C0023BD28 /* main.m */,
+				19AF02AE20A53A370023BD28 /* PrefixHeader.pch */,
+			);
+			path = GQEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		19AF028A20A52F3C0023BD28 /* GQEmojiKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				19AF028B20A52F3C0023BD28 /* GQEmojiKeyboardTests.m */,
+				19AF028D20A52F3C0023BD28 /* Info.plist */,
+			);
+			path = GQEmojiKeyboardTests;
+			sourceTree = "<group>";
+		};
+		19AF029520A52F3C0023BD28 /* GQEmojiKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19AF029620A52F3C0023BD28 /* GQEmojiKeyboardUITests.m */,
+				19AF029820A52F3C0023BD28 /* Info.plist */,
+			);
+			path = GQEmojiKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		19AF02A420A52F420023BD28 /* 功能 */ = {
+			isa = PBXGroup;
+			children = (
+				19AF02AC20A5397F0023BD28 /* GQEKBHeader.h */,
+				19AF02AD20A539EE0023BD28 /* GQEKBEnumeration.h */,
+				19AF02A520A538590023BD28 /* GQEmojiKBManager.h */,
+				19AF02A620A538590023BD28 /* GQEmojiKBManager.m */,
+				19AF02A920A539280023BD28 /* GQEKBModel.h */,
+				19AF02AA20A539280023BD28 /* GQEKBModel.m */,
+				19AF02B020A53ED00023BD28 /* GQInputBar.h */,
+				19AF02B120A53ED00023BD28 /* GQInputBar.m */,
+				19AF02B820A565470023BD28 /* resource */,
+			);
+			path = "功能";
+			sourceTree = "<group>";
+		};
+		19AF02B420A549260023BD28 /* GQEmojiKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				19D5C7E820A5E78400892012 /* GQEmojiImagePreView.h */,
+				19D5C7E920A5E78400892012 /* GQEmojiImagePreView.m */,
+				19D5C7E420A5E64400892012 /* GQEmojiImageView.h */,
+				19D5C7E520A5E64400892012 /* GQEmojiImageView.m */,
+				19AF02D920A5A46A0023BD28 /* GQEmojiResource.h */,
+				19AF02DA20A5A46A0023BD28 /* GQEmojiResource.m */,
+				19AF02D220A59E250023BD28 /* GQEmoji.h */,
+				19AF02D320A59E250023BD28 /* GQEmoji.m */,
+				19AF02D520A59E660023BD28 /* GQEmojiTypeModel.h */,
+				19AF02D620A59E660023BD28 /* GQEmojiTypeModel.m */,
+				19D5C7E020A5E01C00892012 /* GQEmojiScrollView.h */,
+				19D5C7E120A5E01C00892012 /* GQEmojiScrollView.m */,
+				19AF02C320A594270023BD28 /* GQEmojiToolBar.h */,
+				19AF02C420A594270023BD28 /* GQEmojiToolBar.m */,
+				19AF02B520A549770023BD28 /* GQEmojiKeyBoard.h */,
+				19AF02B620A549770023BD28 /* GQEmojiKeyBoard.m */,
+				19AF02C620A596D70023BD28 /* resource */,
+			);
+			path = GQEmojiKeyBoard;
+			sourceTree = "<group>";
+		};
+		19AF02B820A565470023BD28 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				19AF02B420A549260023BD28 /* GQEmojiKeyBoard */,
+				19AF02BB20A565B80023BD28 /* GQKeyboardTypeEmoji@2x.png */,
+				19AF02B920A565B80023BD28 /* GQKeyboardTypeEmoji@3x.png */,
+				19AF02BA20A565B80023BD28 /* GQKeyboardTypeText@2x.png */,
+				19AF02BC20A565B80023BD28 /* GQKeyboardTypeText@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		19AF02C620A596D70023BD28 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				19AF02C720A596D70023BD28 /* emoji.json */,
+				19AF02C820A596D70023BD28 /* keyboard_btn_delete@2x.png */,
+				19AF02C920A596D70023BD28 /* keyboard_btn_delete@3x.png */,
+				19AF02CA20A596D70023BD28 /* keyboard_preview_bg@2x.png */,
+				19AF02CB20A596D70023BD28 /* keyboard_preview_bg@3x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		19D5C7F120A6F56D00892012 /* 普通简单（也可以添加一个滚动底层） */ = {
+			isa = PBXGroup;
+			children = (
+				19AF027520A52F3C0023BD28 /* ViewController.h */,
+				19AF027620A52F3C0023BD28 /* ViewController.m */,
+			);
+			path = "普通简单（也可以添加一个滚动底层）";
+			sourceTree = "<group>";
+		};
+		19D5C7F220A6F58B00892012 /* 表视图 */ = {
+			isa = PBXGroup;
+			children = (
+				19D5C7EE20A6EAF000892012 /* TableViewController.h */,
+				19D5C7EF20A6EAF000892012 /* TableViewController.m */,
+			);
+			path = "表视图";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19AF026E20A52F3C0023BD28 /* GQEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AF029B20A52F3C0023BD28 /* Build configuration list for PBXNativeTarget "GQEmojiKeyboard" */;
+			buildPhases = (
+				19AF026B20A52F3C0023BD28 /* Sources */,
+				19AF026C20A52F3C0023BD28 /* Frameworks */,
+				19AF026D20A52F3C0023BD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQEmojiKeyboard;
+			productName = GQEmojiKeyboard;
+			productReference = 19AF026F20A52F3C0023BD28 /* GQEmojiKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19AF028620A52F3C0023BD28 /* GQEmojiKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AF029E20A52F3C0023BD28 /* Build configuration list for PBXNativeTarget "GQEmojiKeyboardTests" */;
+			buildPhases = (
+				19AF028320A52F3C0023BD28 /* Sources */,
+				19AF028420A52F3C0023BD28 /* Frameworks */,
+				19AF028520A52F3C0023BD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19AF028920A52F3C0023BD28 /* PBXTargetDependency */,
+			);
+			name = GQEmojiKeyboardTests;
+			productName = GQEmojiKeyboardTests;
+			productReference = 19AF028720A52F3C0023BD28 /* GQEmojiKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19AF029120A52F3C0023BD28 /* GQEmojiKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19AF02A120A52F3C0023BD28 /* Build configuration list for PBXNativeTarget "GQEmojiKeyboardUITests" */;
+			buildPhases = (
+				19AF028E20A52F3C0023BD28 /* Sources */,
+				19AF028F20A52F3C0023BD28 /* Frameworks */,
+				19AF029020A52F3C0023BD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19AF029420A52F3C0023BD28 /* PBXTargetDependency */,
+			);
+			name = GQEmojiKeyboardUITests;
+			productName = GQEmojiKeyboardUITests;
+			productReference = 19AF029220A52F3C0023BD28 /* GQEmojiKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19AF026720A52F3C0023BD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZHM.YU;
+				TargetAttributes = {
+					19AF026E20A52F3C0023BD28 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					19AF028620A52F3C0023BD28 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19AF026E20A52F3C0023BD28;
+					};
+					19AF029120A52F3C0023BD28 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19AF026E20A52F3C0023BD28;
+					};
+				};
+			};
+			buildConfigurationList = 19AF026A20A52F3C0023BD28 /* Build configuration list for PBXProject "GQEmojiKeyboard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19AF026620A52F3C0023BD28;
+			productRefGroup = 19AF027020A52F3C0023BD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19AF026E20A52F3C0023BD28 /* GQEmojiKeyboard */,
+				19AF028620A52F3C0023BD28 /* GQEmojiKeyboardTests */,
+				19AF029120A52F3C0023BD28 /* GQEmojiKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19AF026D20A52F3C0023BD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AF02BF20A565B80023BD28 /* GQKeyboardTypeEmoji@2x.png in Resources */,
+				19AF027F20A52F3C0023BD28 /* LaunchScreen.storyboard in Resources */,
+				19AF02CE20A596D70023BD28 /* keyboard_btn_delete@3x.png in Resources */,
+				19AF02CF20A596D70023BD28 /* keyboard_preview_bg@2x.png in Resources */,
+				19AF027C20A52F3C0023BD28 /* Assets.xcassets in Resources */,
+				19AF027A20A52F3C0023BD28 /* Main.storyboard in Resources */,
+				19AF02D020A596D70023BD28 /* keyboard_preview_bg@3x.png in Resources */,
+				19AF02C020A565B80023BD28 /* GQKeyboardTypeText@3x.png in Resources */,
+				19AF02CD20A596D70023BD28 /* keyboard_btn_delete@2x.png in Resources */,
+				19AF02BD20A565B80023BD28 /* GQKeyboardTypeEmoji@3x.png in Resources */,
+				19AF02CC20A596D70023BD28 /* emoji.json in Resources */,
+				19AF02BE20A565B80023BD28 /* GQKeyboardTypeText@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AF028520A52F3C0023BD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AF029020A52F3C0023BD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19AF026B20A52F3C0023BD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5C7ED20A6EA7E00892012 /* RootTableViewController.m in Sources */,
+				19AF02B220A53ED00023BD28 /* GQInputBar.m in Sources */,
+				19AF027720A52F3C0023BD28 /* ViewController.m in Sources */,
+				19AF02C520A594270023BD28 /* GQEmojiToolBar.m in Sources */,
+				19AF02A720A538590023BD28 /* GQEmojiKBManager.m in Sources */,
+				19AF028220A52F3C0023BD28 /* main.m in Sources */,
+				19D5C7E620A5E64400892012 /* GQEmojiImageView.m in Sources */,
+				19D5C7F020A6EAF000892012 /* TableViewController.m in Sources */,
+				19AF02B720A549770023BD28 /* GQEmojiKeyBoard.m in Sources */,
+				19AF02D720A59E660023BD28 /* GQEmojiTypeModel.m in Sources */,
+				19AF02DB20A5A46A0023BD28 /* GQEmojiResource.m in Sources */,
+				19D5C7E220A5E01C00892012 /* GQEmojiScrollView.m in Sources */,
+				19AF027420A52F3C0023BD28 /* AppDelegate.m in Sources */,
+				19AF02AB20A539280023BD28 /* GQEKBModel.m in Sources */,
+				19AF02D420A59E250023BD28 /* GQEmoji.m in Sources */,
+				19D5C7EA20A5E78400892012 /* GQEmojiImagePreView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AF028320A52F3C0023BD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AF028C20A52F3C0023BD28 /* GQEmojiKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19AF028E20A52F3C0023BD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AF029720A52F3C0023BD28 /* GQEmojiKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19AF028920A52F3C0023BD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19AF026E20A52F3C0023BD28 /* GQEmojiKeyboard */;
+			targetProxy = 19AF028820A52F3C0023BD28 /* PBXContainerItemProxy */;
+		};
+		19AF029420A52F3C0023BD28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19AF026E20A52F3C0023BD28 /* GQEmojiKeyboard */;
+			targetProxy = 19AF029320A52F3C0023BD28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19AF027820A52F3C0023BD28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AF027920A52F3C0023BD28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19AF027D20A52F3C0023BD28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AF027E20A52F3C0023BD28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19AF029920A52F3C0023BD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = default;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19AF029A20A52F3C0023BD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19AF029C20A52F3C0023BD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GQEmojiKeyboard/PrefixHeader.pch";
+				INFOPLIST_FILE = GQEmojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQEmojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19AF029D20A52F3C0023BD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GQEmojiKeyboard/PrefixHeader.pch";
+				INFOPLIST_FILE = GQEmojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQEmojiKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19AF029F20A52F3C0023BD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQEmojiKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQEmojiKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GQEmojiKeyboard.app/GQEmojiKeyboard";
+			};
+			name = Debug;
+		};
+		19AF02A020A52F3C0023BD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQEmojiKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQEmojiKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GQEmojiKeyboard.app/GQEmojiKeyboard";
+			};
+			name = Release;
+		};
+		19AF02A220A52F3C0023BD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQEmojiKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQEmojiKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GQEmojiKeyboard;
+			};
+			name = Debug;
+		};
+		19AF02A320A52F3C0023BD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQEmojiKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQEmojiKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GQEmojiKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19AF026A20A52F3C0023BD28 /* Build configuration list for PBXProject "GQEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AF029920A52F3C0023BD28 /* Debug */,
+				19AF029A20A52F3C0023BD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AF029B20A52F3C0023BD28 /* Build configuration list for PBXNativeTarget "GQEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AF029C20A52F3C0023BD28 /* Debug */,
+				19AF029D20A52F3C0023BD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AF029E20A52F3C0023BD28 /* Build configuration list for PBXNativeTarget "GQEmojiKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AF029F20A52F3C0023BD28 /* Debug */,
+				19AF02A020A52F3C0023BD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19AF02A120A52F3C0023BD28 /* Build configuration list for PBXNativeTarget "GQEmojiKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AF02A220A52F3C0023BD28 /* Debug */,
+				19AF02A320A52F3C0023BD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19AF026720A52F3C0023BD28 /* Project object */;
+}
